@@ -1,0 +1,97 @@
+.footer__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer__web {
+  color: var(--hover-color);
+}
+.footer__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.footer__addres-container {
+  display: block;
+}
+.footer-social-media {
+  margin-left: 70px;
+}
+.footer-social-media li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+a.footer-social-media {
+  display: flex;
+  align-items: center;
+}
+.footer-social-media li:hover {
+  background-color: var(--hover-color);
+  transition: all 0.4s;
+  --color2: var(--footer-color);
+}
+.footer-social-media h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--footer-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-social-media__links {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  fill: var(--footer-color);
+}
+
+.footer__address {
+  color: var(--footer-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  padding-bottom: 9px;
+}
+
+.footer__logo {
+  color: var(--footer-color);
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  display: flex;
+  padding-bottom: 20px;
+}
+.footer {
+  background-color: var(--background-color);
+  padding: 60px;
+}
+
+.footer__contact {
+  color: var(--footer-contact-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  &:focus {
+    color: var(--hover-color);
+  }
+  &:hover {
+    color: var(--hover-color);
+  }
+}

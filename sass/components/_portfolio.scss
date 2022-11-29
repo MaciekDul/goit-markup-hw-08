@@ -1,0 +1,32 @@
+.portfolio-buttons__button {
+  background-color: var(--button-bacground-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  width: 114px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 22px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-buttons__list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.portfolio-buttons__button:hover,
+.portfolio-buttons__button:focus {
+  background-color: var(--hover-color);
+  color: var(--footer-color);
+}
+.portfolio-buttons__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
