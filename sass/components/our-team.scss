@@ -1,14 +1,14 @@
-.command {
+.our-team {
   background-color: $color-whisper;
 }
 
-.command__list {
+.our-team__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.command__item {
+.our-team__item {
   background-color: $color-white;
   border-radius: 0 0 4px 4px;
   box-shadow: $shadow-main;
@@ -22,13 +22,13 @@
   }
 }
 
-.command__img {
+.our-team__img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.command__content {
+.our-team__content {
   text-align: center;
 
   @media screen and (max-width: $tablet-max) {
@@ -40,7 +40,7 @@
   }
 }
 
-.command__title {
+.our-team__title {
   margin-bottom: 10px;
 
   font-size: 16px;
@@ -50,7 +50,7 @@
   color: $color-secondary;
 }
 
-.command__descr {
+.our-team__descr {
   margin-bottom: 16px;
   letter-spacing: 0.03em;
   font-size: 16px;

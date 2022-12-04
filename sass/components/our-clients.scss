@@ -1,4 +1,4 @@
-.clients__list {
+.our-clients__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -8,13 +8,14 @@
   }
 }
 
-.clients__item {
+.our-clients__item {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid $color-bombay;
   border-radius: 4px;
-  transition: color $transition-time-cubic, border $transition-time-cubic;
+  transition: color $transition-time-cubic,
+    border $transition-time-cubic;
 
   @media screen and (max-width: $mobile-max) {
     max-width: 210px;
@@ -33,14 +34,14 @@
     border: 1px solid $color-accent;
   }
 
-  &:hover .clients__link,
-  &:focus-within .clients__link {
+  &:hover .our-clients__link,
+  &:focus-within .our-clients__link {
     color: $color-accent;
     outline: none;
   }
 }
 
-.clients__link {
+.our-clients__link {
   display: block;
   color: $color-bombay;
   transition: color $transition-time-cubic;
@@ -58,7 +59,7 @@
   }
 }
 
-.clients__icon {
+.our-clients__icon {
   display: block;
   fill: currentColor;
 }

@@ -1,4 +1,4 @@
-.about {
+.what-we-do {
   @media screen and (max-width: $tablet-max) {
     display: none;
   }
@@ -6,24 +6,24 @@
   padding-top: 3px;
 }
 
-.about__list {
+.what-we-do__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.about__item {
+.what-we-do__item {
   position: relative;
   max-width: 370px;
 }
 
-.about__img {
+.what-we-do__img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.about__text {
+.what-we-do {
   position: absolute;
   bottom: 0;
   left: 0;
